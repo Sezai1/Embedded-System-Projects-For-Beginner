@@ -18,11 +18,6 @@ byte uzunluğundaki mesaj için CRC16 hesabını yap ve mesajın sonuna ekle ve 
 geldiği yere geri gönder. 
 11. PWM sinyalini TIMER ile oluştur. Frekans 50 Hz olmalı. Sana verilen 0 değeri için minimum 
 doluluk, 2000 değeri için de maximum doluluk veren fonksiyonu yaz. 
-3 / 8 
-www.intetra.com.tr 
-intetra 
-Gömülü Yazılım Çalışma Programı 
-25.08.2023 
 12. Bir projene Watchdog ekle. Projende butona basıldığı zaman 10 saniye boyunca HAL_Delay’de 
 kalsın. Senin eklediğin watchdog 5 saniye boyunca tetik almazsa karta reset atsın. 
 13. FreeRTOS kullanılarak 2 adet LED, farklı thread’ler içerisinde ilki 200ms ikincisi de 300ms 
